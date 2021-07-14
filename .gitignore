@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,eclipse
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,gradle,eclipse
+# Created by https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,eclipse,gradle
+# Edit at https://www.toptal.com/developers/gitignore?templates=java,visualstudiocode,eclipse,gradle
 
 ### Eclipse ###
 .metadata
@@ -62,7 +62,7 @@ local.properties
 
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
-#.project
+.project
 
 ### Eclipse Patch ###
 # Spring Boot Tooling
@@ -93,6 +93,22 @@ local.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### Gradle ###
 .gradle
 build/
@@ -112,6 +128,5 @@ gradle-app.setting
 ### Gradle Patch ###
 **/build/
 
-# End of https://www.toptal.com/developers/gitignore/api/java,gradle,eclipse
-
-.vscode/
+# End of https://www.toptal.com/developers/gitignore/api/java,visualstudiocode,eclipse,gradle
+.classpath
