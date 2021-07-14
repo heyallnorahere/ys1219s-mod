@@ -8,9 +8,13 @@ if [[ -z "$DEST" ]]; then
 fi
 
 # clean the output directory and build the mod
-./gradlew clean
-./gradlew build
+echo "Building..."
+./gradlew clean &> /dev/null
+./gradlew build &> /dev/null
+echo "Built mod!"
 
 # rename and copy the mod to the destination
-mv -f build/reobfJar/output.jar build/ys1219s-mod.jar
-cp -rf build/ys1219s-mod.jar "$DEST"
+echo "Copying mod to: $DEST"
+mv -f build/reobfJar/output.jar build/ys1219s-mod.jar &> /dev/null
+cp -rf build/ys1219s-mod.jar "$DEST" &> /dev/null
+echo "Copied!"
