@@ -11,5 +11,6 @@ fi
 ./gradlew clean
 ./gradlew build
 
-# rename copy the mod to the destination
-cp -rf build/reobfJar/output.jar "$DEST"
+# rename and copy the mod to the destination
+mv -f build/reobfJar/output.jar build/ys1219s-mod.jar
+cp -rf build/ys1219s-mod.jar "$DEST"
