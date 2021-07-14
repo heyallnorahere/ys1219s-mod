@@ -2,7 +2,7 @@ modLoader="javafml"
 loaderVersion="[36,)"
 license="Apache License 2.0"
 [[mods]]
-modId="ys1219s_mod"
+modId="ys1219s-mod"
 version="${file.jarVersion}"
 displayname="YS1219's Mod"
 displayURL="https://github.com/yodasoda1219/ys1219s-mod"

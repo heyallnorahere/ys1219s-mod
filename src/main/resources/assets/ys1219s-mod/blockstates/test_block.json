@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "ys1219s-mod:block/test_block"
+        }
+    }
+}

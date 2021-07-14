@@ -18,7 +18,7 @@ public class TestBlock extends Block {
         public static BlockItem itemTestBlock;
         @SubscribeEvent
         public static void onBlocksRegistration(final RegistryEvent.Register<Block> blockRegisterEvent) {
-            testBlock = (TestBlock)(new TestBlock().setRegistryName("ys1219s_mod", "test_block"));
+            testBlock = (TestBlock)(new TestBlock().setRegistryName(YS1219sMod.MODID, "test_block"));
             blockRegisterEvent.getRegistry().register(testBlock);
         }
         @SubscribeEvent

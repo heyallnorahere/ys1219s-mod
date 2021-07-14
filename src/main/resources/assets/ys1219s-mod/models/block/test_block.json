@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "ys1219s-mod:block/test_block_top",
+        "down": "ys1219s-mod:block/test_block_bottom",
+        "north": "ys1219s-mod:block/test_block_side",
+        "south": "ys1219s-mod:block/test_block_side",
+        "east": "ys1219s-mod:block/test_block_side",
+        "west": "ys1219s-mod:block/test_block_side"
+    }
+}
