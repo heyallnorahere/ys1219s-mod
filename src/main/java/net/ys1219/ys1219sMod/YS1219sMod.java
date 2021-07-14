@@ -8,7 +8,7 @@ import net.minecraftforge.fml.javafmlmod.*;
 
 @Mod(YS1219sMod.MODID)
 public class YS1219sMod {
-    public static final String MODID = "ys1219s-mod";
+    public static final String MODID = "ys1219s_mod";
     public YS1219sMod() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         final ModEventRegisterer eventRegisterer = new ModEventRegisterer(modEventBus);
